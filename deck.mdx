@@ -1,6 +1,6 @@
 import { Head } from 'mdx-deck'
 import { Circuit, Invert } from './layouts'
-import { Button } from '@sumup/circuit-ui'
+import { Button, ButtonGroup } from '@sumup/circuit-ui'
 
 export { circuit as theme } from './themes'
 
@@ -8,16 +8,18 @@ export { circuit as theme } from './themes'
   <title>mdx-deck with Circuit UI</title>
 </Head>
 
-export default Invert
+export default Circuit
 
 # Hello
 
-<Button href="https://circuit.sumup.com">Circuit UI docs</Button>
-<Button href="https://github.com/jxnblk/mdx-deck">mdx-deck docs</Button>
+<ButtonGroup>
+  <Button href="https://circuit.sumup.com">Circuit UI docs</Button>
+  <Button href="https://github.com/jxnblk/mdx-deck">mdx-deck docs</Button>
+</ButtonGroup>
 
 ---
 
-export default Circuit
+export default Invert
 
 ## Edit this file
 
