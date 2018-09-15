@@ -1,0 +1,27 @@
+{
+  "name": "circuit-deck",
+  "version": "1.0.0",
+  "description": "mdx-deck configured to work with Circuit UI ",
+  "main": "deck.mdx",
+  "repository": "https://github.com/sumup/circuit-deck",
+  "author": "Connor Baer",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn start",
+    "start": "mdx-deck deck.mdx",
+    "build": "mdx-deck build deck.mdx",
+    "pdf": "mdx-deck pdf deck.mdx",
+    "image": "mdx-deck screenshot deck.mdx",
+    "deploy": "yarn build && yarn pdf && yarn image && gh-pages -d dist",
+    "help": "mdx-deck"
+  },
+  "dependencies": {
+    "@sumup/circuit-ui": "^0.0.7-canary"
+  },
+  "devDependencies": {
+    "@sumup/foundry": "^0.0.10",
+    "gh-pages": "^1.2.0",
+    "mdx-deck": "^1.7.4",
+    "react-svg-loader": "^2.1.0"
+  }
+}
