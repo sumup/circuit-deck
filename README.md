@@ -2,7 +2,7 @@
 
 # circuit-deck
 
-A [mdx-deck](https://github.com/zeit/next.js/) starter repo, preconfigured with SumUp's [Circuit UI](https://www.npmjs.com/package/@sumup/circuit-ui) component library and SumUp's [Foundry](https://www.npmjs.com/package/@sumup/foundry) CLI toolkit for writing JavaScript.
+A [mdx-deck](https://github.com/jxnblk/mdx-deck) starter repo, preconfigured with SumUp's [Circuit UI](https://www.npmjs.com/package/@sumup/circuit-ui) component library and SumUp's [Foundry](https://www.npmjs.com/package/@sumup/foundry) CLI toolkit for writing JavaScript.
 
 </div>
 
